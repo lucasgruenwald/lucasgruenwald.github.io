@@ -185,6 +185,25 @@ input, select, textarea {
 	.add-background{
 		background-color: rgb(0,0,0,0.7);
 		padding-top: 1em;
+		padding-bottom: 0.5em;
+		width: 95%;
+		margin: auto;
+		border-radius: 3px;
+	}
+
+	.most-recent{
+		text-align: center;
+		background-color: rgb(0,0,0,0.7);
+		font: inherit;
+		font-size: 1.35em;
+		text-shadow: 0.1em 0 black,
+        0 0.1em black,
+        -0.1em 0 black,
+        0 -0.1em black,
+        -0.1em -0.1em black,
+        -0.1em 0.1em black,
+        0.1em -0.1em black,
+        0.1em 0.1em black;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1799,7 +1818,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 3.5em 0;
+		margin: 0 0 1em 0;
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -1883,7 +1902,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #324480;
 		}
 
 	select {
@@ -1980,7 +1999,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #324480;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2446,10 +2465,10 @@ input, select, textarea {
 		display: inline-block;
 		font-size: 0.8em;
 		font-weight: 600;
-		height: 3.125em;
+		height: 4.125em;
 		letter-spacing: 0.225em;
-		line-height: 3.125em;
-		max-width: 30em;
+		line-height: 4.125em;
+		max-width: 40em;
 		padding: 0 2.75em;
 		text-align: center;
 		text-decoration: none;
@@ -2512,7 +2531,8 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			/* background-color: #0c1661; */
+			background-color: black;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2522,7 +2542,8 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				/* background-color: #3240ab !important; */
+				background-color: #cc6621 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2530,7 +2551,8 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				/* background-color: #3240ab !important; */
+				background-color: #cc6621 !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2813,7 +2835,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 2em 0 1em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -2842,8 +2864,12 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #324480;
 			color: #c8ece9;
+			width: 90%;
+			margin: auto;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2896,7 +2922,7 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #21b2a6;
+					background: #324480;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -2912,7 +2938,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #21b2a6;
+				color: #324480;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -3376,7 +3402,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #324480;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3777,12 +3803,17 @@ input, select, textarea {
 
 /* CTA */
 
+	#cta{
+		background-color: rgb(0,0,0,0.85);
+	}
+
 	#cta .inner {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
 		max-width: 45em;
+		
 	}
 
 		#cta .inner header {
@@ -3986,3 +4017,16 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 
+.email-link{
+	margin-top: 30%;
+}
+
+.resume-bottom{
+	margin-top: 30%
+}
+
+.prev-work{
+	text-align: center;
+	margin-top: 5%;
+	padding-bottom: 2em;
+}
