@@ -193,9 +193,13 @@ input, select, textarea {
 
 	.most-recent{
 		text-align: center;
-		background-color: rgb(0,0,0,0.7);
+		background-color: rgb(0,0,0,0.9);
 		font: inherit;
 		font-size: 1.35em;
+		margin-top: 2%;
+		margin-bottom: 0em;
+		padding-top: 0.5em;
+		padding-bottom: 0.3em;
 		text-shadow: 0.1em 0 black,
         0 0.1em black,
         -0.1em 0 black,
@@ -2725,6 +2729,7 @@ input, select, textarea {
 			order: 1;
 			border-radius: 0;
 			width: 40%;
+			margin: 1em;
 		}
 
 			.spotlight .image img {
@@ -2751,10 +2756,12 @@ input, select, textarea {
 
 		.spotlight:nth-child(1) {
 			background-color: rgba(0, 0, 0, 0.075);
+			border-bottom: 1px solid black ;
 		}
 
 		.spotlight:nth-child(2) {
 			background-color: rgba(0, 0, 0, 0.15);
+			border-bottom: 1px solid black;
 		}
 
 		.spotlight:nth-child(3) {
@@ -2864,9 +2871,10 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #324480;
+			/* background-color: #324480; */
+			background-color: rgba(48, 71, 150, 0.8);
 			color: #c8ece9;
-			width: 90%;
+			/* width: 90%; */
 			margin: auto;
 			border-top-left-radius: 5px;
 			border-top-right-radius: 5px;
@@ -2923,6 +2931,7 @@ input, select, textarea {
 				.wrapper.style1 select option {
 					color: #ffffff;
 					background: #324480;
+					background: rgba(45, 79, 138, 0.7);
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -3032,7 +3041,6 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background-color: #505393;
-			color: #d3d4e4;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -3941,13 +3949,13 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0 ;
+		padding: 3.5em 0 2em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
 
 		#footer .icons {
-			font-size: 1.25em;
+			font-size: 2em;
 		}
 
 			#footer .icons a {
