@@ -3719,7 +3719,7 @@ input, select, textarea {
 			margin-left: -8.5em;
 			opacity: 1;
 			outline: 0;
-			padding-left: 0.225em;
+			padding-left: 0.7em;
 			position: absolute;
 			text-align: center;
 			text-transform: uppercase;
@@ -3737,7 +3737,7 @@ input, select, textarea {
 				display: block;
 				height: 1.5em;
 				left: 50%;
-				margin: 0 0 0 -0.75em;
+				margin: 0 0 0 -0.4em;
 				position: absolute;
 				width: 1.5em;
 			}
@@ -4042,3 +4042,4 @@ input, select, textarea {
 .pad{
 	padding-top: 3%;
 }
+
